@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/selamat_datang"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_welcome"
+        style="?attr/materialCardViewElevatedStyle"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_welcome"
+        app:layout_constraintStart_toStartOf="@+id/tv_welcome"
+        app:layout_constraintTop_toBottomOf="@id/tv_welcome">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_sibi_translator"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/sibi_translator"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_iv_logo"
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:layout_marginEnd="16dp"
+                app:cardCornerRadius="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_sibi_translator">
+
+                <ImageView
+                    android:id="@+id/iv_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/image_for_home_screen"
+                    android:scaleType="centerCrop"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/aplikasi_pendeteksi_sistem_isyarat_bahasa_indonesia_berdasarkan_gesture_atau_gerakan_tangan"
+                app:layout_constraintEnd_toStartOf="@+id/cv_iv_logo"
+                app:layout_constraintStart_toStartOf="@id/tv_sibi_translator"
+                app:layout_constraintTop_toBottomOf="@id/tv_sibi_translator" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/scan"
+        android:textSize="16sp"
+        app:icon="@drawable/ic_scan_deti"
+        android:fontFamily="@font/poppins_medium"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Deti</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="sibi_translator">SIBI Translator</string>
+    <string name="aplikasi_pendeteksi_sistem_isyarat_bahasa_indonesia_berdasarkan_gesture_atau_gerakan_tangan">Aplikasi Pendeteksi Sistem isyarat Bahasa Indonesia berdasarkan gesture atau gerakan tangan</string>
+    <string name="image_for_home_screen">image for home screen</string>
+    <string name="scan">Scan</string>
+    
+    <string-array name="data_letter">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘A’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘B’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘C’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘D’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘E’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘F’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘G’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘H’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘I’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘J’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘K’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘L’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘M’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘N’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘O’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘P’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘Q’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘R’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘S’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘T’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘U’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘V’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘W’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘X’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘Y’</item>
+        <item>Arti dari gesture tangan seperti pada gambar di samping adalah ‘Z’</item>
+    </string-array>
+
+</resources>

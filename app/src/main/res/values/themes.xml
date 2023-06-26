@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Deti" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Deti" parent="Base.Theme.Deti" />
+
+    <style name="CustomAppBarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+</resources>
